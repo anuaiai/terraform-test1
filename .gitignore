@@ -1,0 +1,24 @@
+### OSX
+*.DS_Store
+
+### Terraform
+# Compiled files
+*.tfstate
+*.tfstate.*backup
+*.out
+
+# Module directory
+.terraform/
+
+### Ansible
+*.retry
+
+### Swap file
+*.swp
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+plan/sbx/*
+plan/dev/*
+plan/tst/*
+plan/prd/*
